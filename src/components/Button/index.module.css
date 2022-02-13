@@ -1,0 +1,42 @@
+.button {
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: darkgrey;
+  border: 1px solid darkgrey;
+  color: rgb(79, 79, 79);
+  cursor: unset;
+}
+
+.small {
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+}
+
+.medium {
+  font-size: 30px;
+  height: 75px;
+  width: 200px;
+}
+
+.large {
+  font-size: 40px;
+  height: 100px;
+  width: 300px;
+}
+
+.primary {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+.secondary {
+  background-color: white;
+  border: 1px solid rebeccapurple;
+  color: rebeccapurple;
+}

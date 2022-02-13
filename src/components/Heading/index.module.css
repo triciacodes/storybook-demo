@@ -1,0 +1,23 @@
+.small {
+  font-size: 26px;
+}
+
+.medium {
+  font-size: 48px;
+}
+
+.large {
+  font-size: 72px;
+}
+
+.coral {
+  color: coral;
+}
+
+.turquoise {
+  color: turquoise;
+}
+
+.gray {
+  color: gray;
+}
