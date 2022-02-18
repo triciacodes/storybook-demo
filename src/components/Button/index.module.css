@@ -29,6 +29,12 @@
   width: 300px;
 }
 
+.xlarge {
+  font-size: 50px;
+  height: 120px;
+  width: 400px;
+}
+
 .primary {
   background-color: black;
   border: 1px solid black;
@@ -37,6 +43,6 @@
 
 .secondary {
   background-color: white;
-  border: 1px solid rebeccapurple;
-  color: rebeccapurple;
+  border: 1px solid coral;
+  color: coral;
 }

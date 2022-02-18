@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './index.module.css'
-import '../../index.css'
+import '../../../index.css'
 
-const StoryWrapper = ({ children }) => {
+const PageWrapper = ({ children }) => {
   return <div className={styles.wrapper}>{children}</div>
 }
 
-export default StoryWrapper
+export default PageWrapper
 
-StoryWrapper.propTypes = {
+PageWrapper.propTypes = {
   children: PropTypes.node,
 }

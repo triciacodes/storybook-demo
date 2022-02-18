@@ -4,7 +4,11 @@ import styles from './index.module.css'
 import cx from 'classnames'
 
 const Heading = ({ color, size = 'small', text }) => {
-  return <h1 className={cx(styles[size], styles[color])}>{text}</h1>
+  return (
+    <h1 className={cx(styles[size])} style={{ color: color }}>
+      {text}
+    </h1>
+  )
 }
 
 export default Heading

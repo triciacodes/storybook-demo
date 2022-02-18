@@ -1,4 +1,4 @@
-// import StoryWrapper from '../src/components/StoryWrapper'
+// import PageWrapper from '../src/components/Util/PageWrapper'
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -10,13 +10,30 @@ export const parameters = {
   },
   // options: {
   //   storySort: {
-  //     order: ['Composite', 'Core'],
+  //     order: ['Typography', 'Demo'],
   //   },
+  // },
+  // backgrounds: {
+  //   default: 'light',
+  //   values: [
+  //     {
+  //       name: 'light',
+  //       value: '#fafafa',
+  //     },
+  //     {
+  //       name: 'dark',
+  //       value: '#222',
+  //     },
+  //     {
+  //       name: 'blue',
+  //       value: '#5F9EA0',
+  //     },
+  //   ],
   // },
   // viewport: {
   //   viewports: {
   //     small: {
-  //       name: 'Small',
+  //       name: 'Small (custom)',
   //       styles: {
   //         width: '600px',
   //         height: '100%',
@@ -45,9 +62,9 @@ export const decorators = [
     // const globalContext = context.globals
 
     return (
-      // <StoryWrapper>
+      // <PageWrapper>
       <Story />
-      // </StoryWrapper>
+      // </PageWrapper>
     )
   },
 ]

@@ -12,7 +12,7 @@ const Avatar = ({ altText, size = 'small', url }) => {
 export default Avatar
 
 Avatar.propTypes = {
-  alt: PropTypes.string.isRequired,
+  altText: PropTypes.string.isRequired,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   url: PropTypes.string.isRequired,
 }

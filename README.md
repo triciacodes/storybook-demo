@@ -2,6 +2,12 @@
 
 This is a simple [Storybook](https://storybook.js.org/) demo, bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Install
+
+- Fork repo
+- Clone locally
+- Run `yarn` in terminal to install node_modules
+
 ## Available Scripts
 
 In the project directory, you can run:
